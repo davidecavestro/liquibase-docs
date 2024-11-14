@@ -137,6 +137,17 @@
                     <td>all</td>
                     <td>&#160;</td>
                 </tr>
+                <tr>
+                    <td><code>nullPlaceholder</code>
+                    </td>
+                    <td>If set, any CSV cell having the placeholder value is translated to a NULL value into the db,
+so leaving the <code>null</code> (regardless of capitalization) char sequence as plain text.
+                    </td>
+                    <td>
+                    </td>
+                    <td>all</td>
+                    <td>4.29</td>
+                </tr>
             </tbody>
         </table>
         <h2 id="nested-tags">Nested tags</h2>
